@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" sizes="32x32" href="./images/favicon-32x32.png" />
+
+    <title>Sunnyside Agency</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/f28fb26403.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div><img class="logo" src="images/logo.svg" alt="" /></div>
+        <div>
+          <img class="hamburger" src="images/icon-hamburger.svg" alt="" onclick="hamburgerMenu()"/>
+        </div>
+        <ul>
+          <li><a class="nav-links" href="#">About</a></li>
+          <li><a class="nav-links" href="#">Services</a></li>
+          <li><a class="nav-links" href="#">Projects</a></li>
+          <li><a class="nav-links" href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <h1>WE ARE CREATIVES</h1>
+    </header>
+    <main>
+      <div class="container">
+        <div id="card1">
+          <h1 class="card-heading">Transform your brand</h1>
+          <p class="card-description">
+            We are a full-service creative agency specializing in helping brands
+            grow fast. Engage your clients through compelling visuals that do
+            most of the marketing for you.
+          </p>
+          <p><a class="learnmore" href="#">LEARN MORE</a></p>
+          <p></p>
+        </div>
+        <div id="card2"></div>
+        <div id="card3"></div>
+        <div id="card4">
+          <h1 class="card-heading">Stand out to the right audience</h1>
+          <p class="card-description">
+            Using a collaborative formula of designers, researchers,
+            photographers, videographers, and copywriters, we’ll build and
+            extend your brand in digital places.
+          </p>
+          <p><a class="learnmore" id="standlearn" href="#">LEARN MORE</a></p>
+        </div>
+        <div id="card5">
+          <h1 class="graph-photo-head">Graphic design</h1>
+          <p class="graph-photo-para">
+            Great design makes you memorable. We deliver artwork that
+            underscores your brand message and captures potential clients’
+            attention.
+          </p>
+        </div>
+        <div id="card6">
+          <h1 class="graph-photo-head">Photography</h1>
+          <p class="graph-photo-para">
+            Increase your credibility by getting the most stunning, high-quality
+            photos that improve your business image.
+          </p>
+        </div>
+        <div id="card7">
+          <p class="test-head">CLIENT TESTIOMONIALS</p>
+          <div class="testimonials">
+            <div class="testimonial">
+              <img class="profile-img" src="images/image-emily.jpg" alt="" />
+              <p class="test-para">
+                We put our trust in Sunnyside and they delivered, making sure
+                our needs were met and deadlines were always hit.
+              </p>
+              <p class="name">Emily R.</p>
+              <p class="credentials">Marketing Director</p>
+            </div>
+            <div class="testimonial">
+              <img class="profile-img" src="images/image-thomas.jpg" alt="" />
+              <p class="test-para">
+                Sunnyside’s enthusiasm coupled with their keen interest in our
+                brand’s success made it a satisfying and enjoyable experience.
+              </p>
+              <p class="name">Thomas S.</p>
+              <p class="credentials">Chief Operating Officer</p>
+            </div>
+            <div class="testimonial">
+              <img class="profile-img" src="images/image-jennie.jpg" alt="" />
+              <p class="test-para">
+                Incredible end result! Our sales increased over 400% when we
+                worked with Sunnyside. Highly recommended!
+              </p>
+              <p class="name">Jennie F.</p>
+              <p class="credentials">Business Owner</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-img">
+        <div id="img1"></div>
+        <div id="img2"></div>
+        <div id="img3"></div>
+        <div id="img4"></div>
+      </div>
+      <div class="contact">
+        <div><img class="footer-logo" src="images/logo.svg" alt="" /></div>
+        <div class="links">
+          <a href="#">About</a><a href="#">Services</a><a href="#">Projects</a>
+        </div>
+        <div class="social">
+          <a href="http://www.facebook.com"
+            ><i class="fab fa-facebook-square fa-lg"></i></a
+          ><a href="http://www.instagram.com"
+            ><i class="fab fa-instagram fa-lg"></i></a
+          ><a href="http://www.twitter.com"
+            ><i class="fab fa-twitter fa-lg"></i></a
+          ><a href="http://www.pinterest.com"
+            ><i class="fab fa-pinterest fa-lg"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+    function hamburgerMenu(){
+    $("ul").toggleClass('active-menu');
+    }
+    </script>
+  </body>
+</html>
